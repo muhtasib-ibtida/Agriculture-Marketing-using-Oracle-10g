@@ -1,0 +1,5 @@
+insert into store(Store_id,Store_name,Store_Location,Store_Phone_No1,Store_Phone_No2,Product_id) values(201,'Apple Store','Gazipur',01354321567,01454321560,101);
+insert into store values(202,'Guava Store','Mirpur',01654321592,01454321590,102);
+insert into store values(203,'Grocery Store','Kuril',01954321581,01754321582,103);
+insert into store values(204,'Cow Milk Store','Gulshan',01554321569,01754321500,104);
+insert into store values(205,'Fish Store','Uttara',01954321900,01754321000,105);

@@ -1,0 +1,5 @@
+insert into Product(product_id,product_name,price,production_date,expire_date,farmer_id) values(101,'Apple',230,to_date('05-06-2022','dd-mm-yy'),to_date('25-07-2022','dd-mm-yy'),701);
+insert into Product values(102,'Guava',150,to_date('07-08-2022','dd-mm-yy'),to_date('28-09-2022','dd-mm-yy'),702);
+insert into Product values(103,'Potato',40,to_date('03-05-2022','dd-mm-yy'),to_date('20-05-2022','dd-mm-yy'),703);
+insert into Product values(104,'Cow Milk',80,to_date('10-04-2022','dd-mm-yy'),to_date('13-04-2022','dd-mm-yy'),704);
+insert into Product values(105,'Ilisha',1250,to_date('01-01-2022','dd-mm-yy'),to_date('22-04-2022','dd-mm-yy'),705);

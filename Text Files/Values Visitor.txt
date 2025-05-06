@@ -1,0 +1,5 @@
+insert into visitor(Visitor_id,Visitor_name,Visitor_Email1,Visitor_Email2,Farmer_id) values(501,'Sherlock','sherlockholmes@gmail.com','sherlock50@gmail.com',701);
+insert into visitor values(502,'Kim Jong-Un','kimjong@gmail.com','kimjong-un@gmail.com',702);
+insert into visitor values(503,'Benito Mussolini','benitomussolini@gmail.com','benitomussolini69@gmail.com',703);
+insert into visitor values(504,'Joseph Stalin','josephstalin@gmail.com','josephstalin420@gmail.com',704);
+insert into visitor values(505,'Osama Bin Laden','osamabinladen@gmail.com','osamabinladen666@gmail.com',705);

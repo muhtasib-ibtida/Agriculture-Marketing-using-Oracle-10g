@@ -1,0 +1,5 @@
+insert into farmer (farmer_id,farmer_name,farmer_phone_No1,farmer_phone_No2,City,HomeNo1) values(701,'Karim',01734567891,01734567892,'Nairobi','NY-023');
+insert into farmer (farmer_id,farmer_name,farmer_phone_No1,farmer_phone_No2,City,HomeNo1) values(702,'Rahim',01734567893,01734567894,'Tokyo','TY-024');
+insert into farmer (farmer_id,farmer_name,farmer_phone_No1,farmer_phone_No2,City,HomeNo1) values(703,'Jasim',01734567855,01734567866,'Moscow','MC-025');
+insert into farmer (farmer_id,farmer_name,farmer_phone_No1,farmer_phone_No2,City,HomeNo1) values(704,'Ananta',01734567880,01734567889,'Barlin','BL-026');
+insert into farmer (farmer_id,farmer_name,farmer_phone_No1,farmer_phone_No2,City,HomeNo1) values(705,'Jalil',01934567891,01834567892,'Denver','DV-027');

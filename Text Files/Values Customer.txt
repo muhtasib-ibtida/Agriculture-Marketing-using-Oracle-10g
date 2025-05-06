@@ -1,0 +1,5 @@
+insert into Customer values(601,'Kousik',01615664070,201);
+insert into Customer values(602,'Rounok',01946723480,202);
+insert into Customer values(603,'Fardin',01770366033,203);
+insert into Customer values(604,'Rahat',01738493234,204);
+insert into Customer values(605,'Muhtasib',01855664070,205);

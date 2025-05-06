@@ -1,0 +1,52 @@
+create table Farmer(
+                    farmer_id number(3) constraint FK_farmer primary key, 
+                    farmer_name varchar2(32), 
+                    farmer_phone_No1 number(12), 
+                    farmer_phone_No2 number(12), 
+                    City varchar2(32), 
+                    HomeNo1 varchar2(32)
+                   );
+desc farmer;
+
+create table Product(
+                     Product_id number(5) constraint PK_product primary key,
+                     Product_name varchar2(32),
+                     Price float(10), 
+                     Production_date date,
+                     Expire_date date,
+                     farmer_id number(3),constraint pkk FOREIGN KEY (farmer_id) REFERENCES 
+                       Farmer(farmer_id)
+                    );
+
+desc Product;
+
+create table store(
+                   Store_id number(5)constraint SK_Store primary key,
+                   Store_name varchar2(32),
+                   Store_Location varchar(32),
+                   Store_Phone_No1 number(12),
+                   Store_Phone_No2 number(12),
+                   Product_id number(5),constraint skk FOREIGN KEY (Product_id) REFERENCES 
+                      Product(Product_id)
+                 );
+desc Store;
+
+create table Visitor(
+                     Visitor_id number(5)constraint VK_Visitor primary key,
+                     Visitor_name varchar2(32),
+                     Visitor_Email1 varchar(32),
+                     Visitor_Email2 varchar(32),
+                     Farmer_id number(3),constraint vkk FOREIGN KEY (farmer_id) REFERENCES 
+                       Farmer(farmer_id)
+                    );
+desc Visitor;
+
+create table Customer(
+                      Customer_id number(5)constraint CK_Customer primary key,
+                      Customer_name varchar2(32),
+                      Customer_Phone_No number(12),
+                      Store_id number(3),constraint ckk FOREIGN KEY (Store_id) REFERENCES 
+                        Store(Store_id)
+                     );
+desc Customer;
+
